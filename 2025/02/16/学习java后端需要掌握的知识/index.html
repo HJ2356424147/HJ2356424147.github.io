@@ -1,0 +1,544 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>学习Java后端需要掌握的知识 | 何剑的个人博客</title><meta name="author" content="何剑"><meta name="copyright" content="何剑"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="学习Java后端需要掌握的知识"><meta name="application-name" content="学习Java后端需要掌握的知识"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="学习Java后端需要掌握的知识"><meta property="og:url" content="http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/index.html"><meta property="og:site_name" content="何剑的个人博客"><meta property="og:description" content="学习 Java 后端开发的核心知识Java 后端开发是一个广泛且深入的领域，掌握以下核心知识可以帮助你成为一名合格的 Java 后端开发工程师。本文将详细介绍这些知识点，并提供一些学习建议。 1. Java 基础语法 变量：声明、初始化、作用域。 数据类型：基本类型、引用类型。 运算符：算术、关系、"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg"><meta property="article:author" content="何剑"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg"><meta name="description" content="学习 Java 后端开发的核心知识Java 后端开发是一个广泛且深入的领域，掌握以下核心知识可以帮助你成为一名合格的 Java 后端开发工程师。本文将详细介绍这些知识点，并提供一些学习建议。 1. Java 基础语法 变量：声明、初始化、作用域。 数据类型：基本类型、引用类型。 运算符：算术、关系、"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png"},
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 何剑","link":"链接: ","source":"来源: 何剑的个人博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '何剑的个人博客',
+  title: '学习Java后端需要掌握的知识',
+  postAI: '',
+  pageFillDescription: '学习 Java 后端开发的核心知识, 1. Java 基础, 语法, 面向对象编程, 集合框架, 异常处理, 泛型, 多线程, 2. 数据库, SQL, JDBC, ORM 框架, 数据库设计, 3. Web 开发, Servlet, JSP, MVC 框架, RESTful API, 4. Spring 框架, Spring Core, Spring MVC, Spring Boot, Spring Data, Spring Security, 5. 网络编程, HTTPx2FHTTPS, WebSocket, RPC, 6. 消息队列, RabbitMQ, Kafka, 7. 缓存, Redis, Memcached, 8. 微服务, Spring Cloud, Docker, Kubernetes, 9. 测试, 单元测试, 集成测试, Mock 测试, 10. 版本控制, Git, 11. 构建工具, Maven, Gradle, 12. 性能优化, JVM 调优, 数据库优化, 代码优化, 13. 安全, 认证与授权, 数据加密, 常见攻击防护, 14. DevOps, CIx2FCD, 监控与日志, 15. 设计模式, 常用设计模式, 总结学习后端开发的核心知识后端开发是一个广泛且深入的领域掌握以下核心知识可以帮助你成为一名合格的后端开发工程师本文将详细介绍这些知识点并提供一些学习建议基础语法变量声明初始化作用域数据类型基本类型引用类型运算符算术关系逻辑位运算控制流程面向对象编程类与对象定义实例化继承单继承多态封装访问修饰符抽象类与接口定义实现区别集合框架异常处理捕获异常资源释放自定义异常定义抛出捕获泛型泛型类定义使用泛型方法定义使用多线程线程创建继承实现同步锁机制线程池数据库基本查询连接查询子查询嵌套查询聚合函数数据库连接操作增删改查事务管理框架对象关系映射映射动态数据库设计范式第一范式第二范式第三范式索引索引事务特性锁机制行锁表锁开发生命周期请求响应处理会话管理基本语法脚本元素指令动作表达式表达式语言标准标签库框架控制器视图解析表单处理设计原则资源方法状态码实现方式框架控制反转依赖注入管理控制器视图解析表单处理自动配置条件化配置起步依赖嵌入式服务器数据库缓存分布式锁认证授权安全配置网络编程协议基础请求方法状态码头部字段请求响应结构请求行请求头请求体实时通信全双工通信远程过程调用消息队列基本概念生产者消费者队列交换机消息模型点对点发布订阅高吞吐量分布式消息系统分布式分区副本缓存数据结构字符串列表集合哈希有序集合持久化集群主从复制哨兵集群模式分布式缓存系统内存缓存算法微服务服务发现配置中心负载均衡熔断器容器化部署镜像容器容器编排测试单元测试测试用例断言测试组依赖测试集成测试上下文配置事务管理测试模拟对象行为验证版本控制基本命令分支管理冲突解决冲突检测解决冲突构建工具依赖管理依赖范围项目构建生命周期插件构建自动化任务定义性能优化调优内存模型堆栈方法区垃圾回收算法调优数据库优化索引优化复合索引覆盖索引查询优化执行计划查询重写代码优化算法时间复杂度空间复杂度数据结构数组链表树图安全认证与授权授权码模式密码模式数据加密对称加密非对称加密常见攻击防护注入预编译语句参数化查询输入过滤输出编码验证持续集成持续部署监控与日志指标收集报警日志收集分析可视化设计模式常用设计模式单例模式确保一个类只有一个实例工厂模式创建对象的接口观察者模式对象间的一对多依赖策略模式定义一系列算法封装每个算法总结掌握这些核心知识可以帮助你成为一名合格的后端开发工程师实际开发中还需要不断学习和积累经验关注新技术的发展提升自己的技术能力',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-02-16 16:55:52',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">何剑的个人博客</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/02/"><span class="card-archive-list-date">二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="article-meta tags"></span></div></div><h1 class="post-title" itemprop="name headline">学习Java后端需要掌握的知识</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2025-02-16T08:00:00.000Z" title="发表于 2025-02-16 16:00:00">2025-02-16</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-02-16T08:55:52.669Z" title="更新于 2025-02-16 16:55:52">2025-02-16</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为长沙"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>长沙</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src=""></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/"><header><h1 id="CrawlerTitle" itemprop="name headline">学习Java后端需要掌握的知识</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">何剑</span><time itemprop="dateCreated datePublished" datetime="2025-02-16T08:00:00.000Z" title="发表于 2025-02-16 16:00:00">2025-02-16</time><time itemprop="dateCreated datePublished" datetime="2025-02-16T08:55:52.669Z" title="更新于 2025-02-16 16:55:52">2025-02-16</time></header><h1 id="学习-Java-后端开发的核心知识"><a href="#学习-Java-后端开发的核心知识" class="headerlink" title="学习 Java 后端开发的核心知识"></a>学习 Java 后端开发的核心知识</h1><p>Java 后端开发是一个广泛且深入的领域，掌握以下核心知识可以帮助你成为一名合格的 Java 后端开发工程师。本文将详细介绍这些知识点，并提供一些学习建议。</p>
+<h2 id="1-Java-基础"><a href="#1-Java-基础" class="headerlink" title="1. Java 基础"></a>1. Java 基础</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><ul>
+<li><strong>变量</strong>：声明、初始化、作用域。</li>
+<li><strong>数据类型</strong>：基本类型、引用类型。</li>
+<li><strong>运算符</strong>：算术、关系、逻辑、位运算。</li>
+<li><strong>控制流程</strong>：if-else、switch、for、while、do-while。</li>
+</ul>
+<h3 id="面向对象编程"><a href="#面向对象编程" class="headerlink" title="面向对象编程"></a>面向对象编程</h3><ul>
+<li><strong>类与对象</strong>：定义、实例化。</li>
+<li><strong>继承</strong>：单继承、多态。</li>
+<li><strong>封装</strong>：访问修饰符（public、private、protected）。</li>
+<li><strong>抽象类与接口</strong>：定义、实现、区别。</li>
+</ul>
+<h3 id="集合框架"><a href="#集合框架" class="headerlink" title="集合框架"></a>集合框架</h3><ul>
+<li><strong>List</strong>：ArrayList、LinkedList。</li>
+<li><strong>Set</strong>：HashSet、TreeSet。</li>
+<li><strong>Map</strong>：HashMap、TreeMap。</li>
+</ul>
+<h3 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h3><ul>
+<li><strong>try-catch-finally</strong>：捕获异常、资源释放。</li>
+<li><strong>自定义异常</strong>：定义、抛出、捕获。</li>
+</ul>
+<h3 id="泛型"><a href="#泛型" class="headerlink" title="泛型"></a>泛型</h3><ul>
+<li><strong>泛型类</strong>：定义、使用。</li>
+<li><strong>泛型方法</strong>：定义、使用。</li>
+</ul>
+<h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><ul>
+<li><strong>线程创建</strong>：继承 Thread、实现 Runnable。</li>
+<li><strong>同步</strong>：synchronized、Lock。</li>
+<li><strong>锁机制</strong>：ReentrantLock、ReadWriteLock。</li>
+<li><strong>线程池</strong>：ExecutorService、ThreadPoolExecutor。</li>
+</ul>
+<h2 id="2-数据库"><a href="#2-数据库" class="headerlink" title="2. 数据库"></a>2. 数据库</h2><h3 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h3><ul>
+<li><strong>基本查询</strong>：SELECT、INSERT、UPDATE、DELETE。</li>
+<li><strong>连接查询</strong>：INNER JOIN、LEFT JOIN、RIGHT JOIN。</li>
+<li><strong>子查询</strong>：嵌套查询。</li>
+<li><strong>聚合函数</strong>：COUNT、SUM、AVG、MAX、MIN。</li>
+</ul>
+<h3 id="JDBC"><a href="#JDBC" class="headerlink" title="JDBC"></a>JDBC</h3><ul>
+<li><strong>数据库连接</strong>：DriverManager、DataSource。</li>
+<li><strong>CRUD 操作</strong>：增删改查。</li>
+<li><strong>事务管理</strong>：commit、rollback。</li>
+</ul>
+<h3 id="ORM-框架"><a href="#ORM-框架" class="headerlink" title="ORM 框架"></a>ORM 框架</h3><ul>
+<li><strong>Hibernate</strong>：对象关系映射、HQL。</li>
+<li><strong>MyBatis</strong>：SQL 映射、动态 SQL。</li>
+</ul>
+<h3 id="数据库设计"><a href="#数据库设计" class="headerlink" title="数据库设计"></a>数据库设计</h3><ul>
+<li><strong>范式</strong>：第一范式、第二范式、第三范式。</li>
+<li><strong>索引</strong>：B-Tree、Hash 索引。</li>
+<li><strong>事务</strong>：ACID 特性。</li>
+<li><strong>锁机制</strong>：行锁、表锁。</li>
+</ul>
+<h2 id="3-Web-开发"><a href="#3-Web-开发" class="headerlink" title="3. Web 开发"></a>3. Web 开发</h2><h3 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h3><ul>
+<li><strong>生命周期</strong>：init、service、destroy。</li>
+<li><strong>请求响应处理</strong>：HttpServletRequest、HttpServletResponse。</li>
+<li><strong>会话管理</strong>：HttpSession、Cookie。</li>
+</ul>
+<h3 id="JSP"><a href="#JSP" class="headerlink" title="JSP"></a>JSP</h3><ul>
+<li><strong>基本语法</strong>：脚本元素、指令、动作。</li>
+<li><strong>EL 表达式</strong>：表达式语言。</li>
+<li><strong>JSTL</strong>：JSP 标准标签库。</li>
+</ul>
+<h3 id="MVC-框架"><a href="#MVC-框架" class="headerlink" title="MVC 框架"></a>MVC 框架</h3><ul>
+<li><strong>Spring MVC</strong>：控制器、视图解析、表单处理。</li>
+</ul>
+<h3 id="RESTful-API"><a href="#RESTful-API" class="headerlink" title="RESTful API"></a>RESTful API</h3><ul>
+<li><strong>设计原则</strong>：资源、HTTP 方法、状态码。</li>
+<li><strong>实现方式</strong>：Spring Boot、JAX-RS。</li>
+</ul>
+<h2 id="4-Spring-框架"><a href="#4-Spring-框架" class="headerlink" title="4. Spring 框架"></a>4. Spring 框架</h2><h3 id="Spring-Core"><a href="#Spring-Core" class="headerlink" title="Spring Core"></a>Spring Core</h3><ul>
+<li><strong>IoC</strong>：控制反转。</li>
+<li><strong>DI</strong>：依赖注入。</li>
+<li><strong>Bean 管理</strong>：BeanFactory、ApplicationContext。</li>
+</ul>
+<h3 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h3><ul>
+<li><strong>控制器</strong>：@Controller、@RequestMapping。</li>
+<li><strong>视图解析</strong>：ViewResolver。</li>
+<li><strong>表单处理</strong>：@ModelAttribute、@RequestParam。</li>
+</ul>
+<h3 id="Spring-Boot"><a href="#Spring-Boot" class="headerlink" title="Spring Boot"></a>Spring Boot</h3><ul>
+<li><strong>自动配置</strong>：条件化配置。</li>
+<li><strong>起步依赖</strong>：spring-boot-starter。</li>
+<li><strong>嵌入式服务器</strong>：Tomcat、Jetty。</li>
+</ul>
+<h3 id="Spring-Data"><a href="#Spring-Data" class="headerlink" title="Spring Data"></a>Spring Data</h3><ul>
+<li><strong>JPA</strong>：Java Persistence API。</li>
+<li><strong>MongoDB</strong>：NoSQL 数据库。</li>
+<li><strong>Redis</strong>：缓存、分布式锁。</li>
+</ul>
+<h3 id="Spring-Security"><a href="#Spring-Security" class="headerlink" title="Spring Security"></a>Spring Security</h3><ul>
+<li><strong>认证</strong>：AuthenticationManager。</li>
+<li><strong>授权</strong>：AccessDecisionManager。</li>
+<li><strong>安全配置</strong>：WebSecurityConfigurerAdapter。</li>
+</ul>
+<h2 id="5-网络编程"><a href="#5-网络编程" class="headerlink" title="5. 网络编程"></a>5. 网络编程</h2><h3 id="HTTP-HTTPS"><a href="#HTTP-HTTPS" class="headerlink" title="HTTP&#x2F;HTTPS"></a>HTTP&#x2F;HTTPS</h3><ul>
+<li><strong>协议基础</strong>：请求方法、状态码、头部字段。</li>
+<li><strong>请求响应结构</strong>：请求行、请求头、请求体。</li>
+</ul>
+<h3 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h3><ul>
+<li><strong>实时通信</strong>：全双工通信。</li>
+</ul>
+<h3 id="RPC"><a href="#RPC" class="headerlink" title="RPC"></a>RPC</h3><ul>
+<li><strong>远程过程调用</strong>：gRPC、Dubbo。</li>
+</ul>
+<h2 id="6-消息队列"><a href="#6-消息队列" class="headerlink" title="6. 消息队列"></a>6. 消息队列</h2><h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a>RabbitMQ</h3><ul>
+<li><strong>基本概念</strong>：生产者、消费者、队列、交换机。</li>
+<li><strong>消息模型</strong>：点对点、发布订阅。</li>
+</ul>
+<h3 id="Kafka"><a href="#Kafka" class="headerlink" title="Kafka"></a>Kafka</h3><ul>
+<li><strong>高吞吐量</strong>：分布式消息系统。</li>
+<li><strong>分布式</strong>：分区、副本。</li>
+</ul>
+<h2 id="7-缓存"><a href="#7-缓存" class="headerlink" title="7. 缓存"></a>7. 缓存</h2><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><ul>
+<li><strong>数据结构</strong>：字符串、列表、集合、哈希、有序集合。</li>
+<li><strong>持久化</strong>：RDB、AOF。</li>
+<li><strong>集群</strong>：主从复制、哨兵、集群模式。</li>
+</ul>
+<h3 id="Memcached"><a href="#Memcached" class="headerlink" title="Memcached"></a>Memcached</h3><ul>
+<li><strong>分布式缓存系统</strong>：内存缓存、LRU 算法。</li>
+</ul>
+<h2 id="8-微服务"><a href="#8-微服务" class="headerlink" title="8. 微服务"></a>8. 微服务</h2><h3 id="Spring-Cloud"><a href="#Spring-Cloud" class="headerlink" title="Spring Cloud"></a>Spring Cloud</h3><ul>
+<li><strong>服务发现</strong>：Eureka、Consul。</li>
+<li><strong>配置中心</strong>：Spring Cloud Config。</li>
+<li><strong>负载均衡</strong>：Ribbon、LoadBalancer。</li>
+<li><strong>熔断器</strong>：Hystrix、Resilience4j。</li>
+</ul>
+<h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><ul>
+<li><strong>容器化部署</strong>：镜像、容器、Dockerfile。</li>
+</ul>
+<h3 id="Kubernetes"><a href="#Kubernetes" class="headerlink" title="Kubernetes"></a>Kubernetes</h3><ul>
+<li><strong>容器编排</strong>：Pod、Service、Deployment。</li>
+</ul>
+<h2 id="9-测试"><a href="#9-测试" class="headerlink" title="9. 测试"></a>9. 测试</h2><h3 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h3><ul>
+<li><strong>JUnit</strong>：测试用例、断言。</li>
+<li><strong>TestNG</strong>：测试组、依赖测试。</li>
+</ul>
+<h3 id="集成测试"><a href="#集成测试" class="headerlink" title="集成测试"></a>集成测试</h3><ul>
+<li><strong>Spring Test</strong>：上下文配置、事务管理。</li>
+</ul>
+<h3 id="Mock-测试"><a href="#Mock-测试" class="headerlink" title="Mock 测试"></a>Mock 测试</h3><ul>
+<li><strong>Mockito</strong>：模拟对象、行为验证。</li>
+</ul>
+<h2 id="10-版本控制"><a href="#10-版本控制" class="headerlink" title="10. 版本控制"></a>10. 版本控制</h2><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><ul>
+<li><strong>基本命令</strong>：clone、commit、push、pull。</li>
+<li><strong>分支管理</strong>：branch、merge、rebase。</li>
+<li><strong>冲突解决</strong>：冲突检测、解决冲突。</li>
+</ul>
+<h2 id="11-构建工具"><a href="#11-构建工具" class="headerlink" title="11. 构建工具"></a>11. 构建工具</h2><h3 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h3><ul>
+<li><strong>依赖管理</strong>：pom.xml、依赖范围。</li>
+<li><strong>项目构建</strong>：生命周期、插件。</li>
+</ul>
+<h3 id="Gradle"><a href="#Gradle" class="headerlink" title="Gradle"></a>Gradle</h3><ul>
+<li><strong>构建自动化</strong>：Groovy DSL、任务定义。</li>
+</ul>
+<h2 id="12-性能优化"><a href="#12-性能优化" class="headerlink" title="12. 性能优化"></a>12. 性能优化</h2><h3 id="JVM-调优"><a href="#JVM-调优" class="headerlink" title="JVM 调优"></a>JVM 调优</h3><ul>
+<li><strong>内存模型</strong>：堆、栈、方法区。</li>
+<li><strong>垃圾回收</strong>：GC 算法、GC 调优。</li>
+</ul>
+<h3 id="数据库优化"><a href="#数据库优化" class="headerlink" title="数据库优化"></a>数据库优化</h3><ul>
+<li><strong>索引优化</strong>：复合索引、覆盖索引。</li>
+<li><strong>查询优化</strong>：执行计划、查询重写。</li>
+</ul>
+<h3 id="代码优化"><a href="#代码优化" class="headerlink" title="代码优化"></a>代码优化</h3><ul>
+<li><strong>算法</strong>：时间复杂度、空间复杂度。</li>
+<li><strong>数据结构</strong>：数组、链表、树、图。</li>
+</ul>
+<h2 id="13-安全"><a href="#13-安全" class="headerlink" title="13. 安全"></a>13. 安全</h2><h3 id="认证与授权"><a href="#认证与授权" class="headerlink" title="认证与授权"></a>认证与授权</h3><ul>
+<li><strong>OAuth2</strong>：授权码模式、密码模式。</li>
+<li><strong>JWT</strong>：JSON Web Token。</li>
+</ul>
+<h3 id="数据加密"><a href="#数据加密" class="headerlink" title="数据加密"></a>数据加密</h3><ul>
+<li><strong>对称加密</strong>：AES、DES。</li>
+<li><strong>非对称加密</strong>：RSA、ECC。</li>
+</ul>
+<h3 id="常见攻击防护"><a href="#常见攻击防护" class="headerlink" title="常见攻击防护"></a>常见攻击防护</h3><ul>
+<li><strong>SQL 注入</strong>：预编译语句、参数化查询。</li>
+<li><strong>XSS</strong>：输入过滤、输出编码。</li>
+<li><strong>CSRF</strong>：Token 验证、SameSite Cookie。</li>
+</ul>
+<h2 id="14-DevOps"><a href="#14-DevOps" class="headerlink" title="14. DevOps"></a>14. DevOps</h2><h3 id="CI-CD"><a href="#CI-CD" class="headerlink" title="CI&#x2F;CD"></a>CI&#x2F;CD</h3><ul>
+<li><strong>持续集成</strong>：Jenkins、GitLab CI。</li>
+<li><strong>持续部署</strong>：Ansible、Terraform。</li>
+</ul>
+<h3 id="监控与日志"><a href="#监控与日志" class="headerlink" title="监控与日志"></a>监控与日志</h3><ul>
+<li><strong>Prometheus</strong>：指标收集、报警。</li>
+<li><strong>ELK Stack</strong>：日志收集、分析、可视化。</li>
+</ul>
+<h2 id="15-设计模式"><a href="#15-设计模式" class="headerlink" title="15. 设计模式"></a>15. 设计模式</h2><h3 id="常用设计模式"><a href="#常用设计模式" class="headerlink" title="常用设计模式"></a>常用设计模式</h3><ul>
+<li><strong>单例模式</strong>：确保一个类只有一个实例。</li>
+<li><strong>工厂模式</strong>：创建对象的接口。</li>
+<li><strong>观察者模式</strong>：对象间的一对多依赖。</li>
+<li><strong>策略模式</strong>：定义一系列算法，封装每个算法。</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>掌握这些核心知识可以帮助你成为一名合格的 Java 后端开发工程师。实际开发中，还需要不断学习和积累经验，关注新技术的发展，提升自己的技术能力。</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">何剑</div><div class="post-copyright__author_desc">如果有天才 那一定是不放弃的你</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/')">学习Java后端需要掌握的知识</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=学习Java后端需要掌握的知识&amp;url=http://example.com/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/&amp;pic=" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">何剑的个人博客</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"></div></div></div><div class="post_share"><div class="social-share" data-image="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2024/08/28/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">如何在使用hexo搭建博客</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://bu.dusays.com/2023/05/13/645fa415e8694.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0-Java-%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E7%9A%84%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">学习 Java 后端开发的核心知识</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Java-%E5%9F%BA%E7%A1%80"><span class="toc-number">1.1.</span> <span class="toc-text">1. Java 基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.1.</span> <span class="toc-text">语法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"><span class="toc-number">1.1.2.</span> <span class="toc-text">面向对象编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6"><span class="toc-number">1.1.3.</span> <span class="toc-text">集合框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="toc-number">1.1.4.</span> <span class="toc-text">异常处理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%9B%E5%9E%8B"><span class="toc-number">1.1.5.</span> <span class="toc-text">泛型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E7%BA%BF%E7%A8%8B"><span class="toc-number">1.1.6.</span> <span class="toc-text">多线程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">1.2.</span> <span class="toc-text">2. 数据库</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SQL"><span class="toc-number">1.2.1.</span> <span class="toc-text">SQL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JDBC"><span class="toc-number">1.2.2.</span> <span class="toc-text">JDBC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ORM-%E6%A1%86%E6%9E%B6"><span class="toc-number">1.2.3.</span> <span class="toc-text">ORM 框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.2.4.</span> <span class="toc-text">数据库设计</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Web-%E5%BC%80%E5%8F%91"><span class="toc-number">1.3.</span> <span class="toc-text">3. Web 开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Servlet"><span class="toc-number">1.3.1.</span> <span class="toc-text">Servlet</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JSP"><span class="toc-number">1.3.2.</span> <span class="toc-text">JSP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MVC-%E6%A1%86%E6%9E%B6"><span class="toc-number">1.3.3.</span> <span class="toc-text">MVC 框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RESTful-API"><span class="toc-number">1.3.4.</span> <span class="toc-text">RESTful API</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Spring-%E6%A1%86%E6%9E%B6"><span class="toc-number">1.4.</span> <span class="toc-text">4. Spring 框架</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Core"><span class="toc-number">1.4.1.</span> <span class="toc-text">Spring Core</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-MVC"><span class="toc-number">1.4.2.</span> <span class="toc-text">Spring MVC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Boot"><span class="toc-number">1.4.3.</span> <span class="toc-text">Spring Boot</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Data"><span class="toc-number">1.4.4.</span> <span class="toc-text">Spring Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Security"><span class="toc-number">1.4.5.</span> <span class="toc-text">Spring Security</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B"><span class="toc-number">1.5.</span> <span class="toc-text">5. 网络编程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP-HTTPS"><span class="toc-number">1.5.1.</span> <span class="toc-text">HTTP&#x2F;HTTPS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#WebSocket"><span class="toc-number">1.5.2.</span> <span class="toc-text">WebSocket</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RPC"><span class="toc-number">1.5.3.</span> <span class="toc-text">RPC</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97"><span class="toc-number">1.6.</span> <span class="toc-text">6. 消息队列</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RabbitMQ"><span class="toc-number">1.6.1.</span> <span class="toc-text">RabbitMQ</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Kafka"><span class="toc-number">1.6.2.</span> <span class="toc-text">Kafka</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E7%BC%93%E5%AD%98"><span class="toc-number">1.7.</span> <span class="toc-text">7. 缓存</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Redis"><span class="toc-number">1.7.1.</span> <span class="toc-text">Redis</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Memcached"><span class="toc-number">1.7.2.</span> <span class="toc-text">Memcached</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%BE%AE%E6%9C%8D%E5%8A%A1"><span class="toc-number">1.8.</span> <span class="toc-text">8. 微服务</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Cloud"><span class="toc-number">1.8.1.</span> <span class="toc-text">Spring Cloud</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Docker"><span class="toc-number">1.8.2.</span> <span class="toc-text">Docker</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Kubernetes"><span class="toc-number">1.8.3.</span> <span class="toc-text">Kubernetes</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%B5%8B%E8%AF%95"><span class="toc-number">1.9.</span> <span class="toc-text">9. 测试</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95"><span class="toc-number">1.9.1.</span> <span class="toc-text">单元测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95"><span class="toc-number">1.9.2.</span> <span class="toc-text">集成测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mock-%E6%B5%8B%E8%AF%95"><span class="toc-number">1.9.3.</span> <span class="toc-text">Mock 测试</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6"><span class="toc-number">1.10.</span> <span class="toc-text">10. 版本控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Git"><span class="toc-number">1.10.1.</span> <span class="toc-text">Git</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7"><span class="toc-number">1.11.</span> <span class="toc-text">11. 构建工具</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Maven"><span class="toc-number">1.11.1.</span> <span class="toc-text">Maven</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gradle"><span class="toc-number">1.11.2.</span> <span class="toc-text">Gradle</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#12-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-number">1.12.</span> <span class="toc-text">12. 性能优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#JVM-%E8%B0%83%E4%BC%98"><span class="toc-number">1.12.1.</span> <span class="toc-text">JVM 调优</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96"><span class="toc-number">1.12.2.</span> <span class="toc-text">数据库优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96"><span class="toc-number">1.12.3.</span> <span class="toc-text">代码优化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#13-%E5%AE%89%E5%85%A8"><span class="toc-number">1.13.</span> <span class="toc-text">13. 安全</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A4%E8%AF%81%E4%B8%8E%E6%8E%88%E6%9D%83"><span class="toc-number">1.13.1.</span> <span class="toc-text">认证与授权</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86"><span class="toc-number">1.13.2.</span> <span class="toc-text">数据加密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E6%94%BB%E5%87%BB%E9%98%B2%E6%8A%A4"><span class="toc-number">1.13.3.</span> <span class="toc-text">常见攻击防护</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#14-DevOps"><span class="toc-number">1.14.</span> <span class="toc-text">14. DevOps</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CI-CD"><span class="toc-number">1.14.1.</span> <span class="toc-text">CI&#x2F;CD</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%91%E6%8E%A7%E4%B8%8E%E6%97%A5%E5%BF%97"><span class="toc-number">1.14.2.</span> <span class="toc-text">监控与日志</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#15-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.15.</span> <span class="toc-text">15. 设计模式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.15.1.</span> <span class="toc-text">常用设计模式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.16.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/02/16/%E5%AD%A6%E4%B9%A0java%E5%90%8E%E7%AB%AF%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86/" title="学习Java后端需要掌握的知识">学习Java后端需要掌握的知识</a><time datetime="2025-02-16T08:00:00.000Z" title="发表于 2025-02-16 16:00:00">2025-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="如何在使用hexo搭建博客">如何在使用hexo搭建博客</a><time datetime="2024-08-28T11:35:41.000Z" title="发表于 2024-08-28 19:35:41">2024-08-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/27/hello-world/" title="Hello World">Hello World</a><time datetime="2024-08-27T10:55:32.366Z" title="发表于 2024-08-27 18:55:32">2024-08-27</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2025 By <a class="footer-bar-link" href="/" title="何剑" target="_blank">何剑</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">0</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><span class="sidebar-menu-item-title">标签</span></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.12",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 何剑 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
